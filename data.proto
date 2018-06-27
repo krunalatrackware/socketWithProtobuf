@@ -1,0 +1,9 @@
+syntax="proto2";
+
+package Demo;
+
+message myData
+{
+ optional string str = 1;
+ optional uint32 length = 2;
+}
